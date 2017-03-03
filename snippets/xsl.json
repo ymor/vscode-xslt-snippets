@@ -133,5 +133,13 @@
       "</xsl:for-each>"
     ],
     "description": "XSL For-each"
+  },
+  "Call-Template": {
+    "prefix": "call-template",
+    "body": [
+      "<xsl:call-template name=\"$1\">",
+      "  $2",
+      "</xsl:call-template>"
+    ]
   }
 }
