@@ -18,7 +18,8 @@ Handful snippets for working with xslt templates.
 | with      | `<xsl:with-param name="$1" select="$2" />`                                                     |
 | attribute | `<xsl:attribute name="$1">$2</xsl:attribute>`                                                  |
 | text      | `<xsl:text>$1</xsl:text>`                                                                      |
-| apply     | `<xsl:apply-templates match="$1" />`                                                           |    
-| copy      | `<xsl:copy-of select="$1">$2</xsl:copy-of>`                                                    |   
+| apply     | `<xsl:apply-templates match="$1" />`                                                           | 
+| copy      | `<xsl:copy>$1</xsl:copy>`                                                                      |    
+| copy-of   | `<xsl:copy-of select="$1">$2</xsl:copy-of>`                                                    |   
 | for-each  | `<xsl:for-each select="$1">$2</xsl:for-each>`                                                  | 
 | call-template  | `<xsl:call-template name="$1">$2</xsl:call-template>`                                     |

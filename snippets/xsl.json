@@ -116,8 +116,17 @@
     ],
     "description": "XSL Text"
   },
-  "Copy-Of": {
+  "Copy": {
     "prefix": "copy",
+    "body": [
+      "<xsl:copy>",
+      "  $1",
+      "</xsl:copy>"
+    ],
+    "description": "XSL Copy-of"
+  },
+  "Copy-Of": {
+    "prefix": "copy-of",
     "body": [
       "<xsl:copy-of select=\"$1\">",
       "  $2",
