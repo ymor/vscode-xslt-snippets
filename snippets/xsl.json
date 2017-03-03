@@ -124,5 +124,14 @@
       "</xsl:copy-of>"
     ],
     "description": "XSL Copy-of"
+  },
+  "For-Each": {
+    "prefix": "for-each",
+    "body": [
+      "<xsl:for-each select=\"$1\">",
+      "  $2",
+      "</xsl:for-each>"
+    ],
+    "description": "XSL For-each"
   }
 }
